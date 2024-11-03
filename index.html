@@ -1,0 +1,234 @@
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>landing pag</title>
+        <link rel="stylesheet" href="assents/css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    </head>
+    <body >
+        <input id="close-menu" class="close-menu" type="checkbox" aria-label="close menu" role="button">
+        <label class="close-menu-label"for="close-menu" title="close menu"></label>
+        <aside class="menu white-bg">
+            <div class="main-content menu-content" >
+                <h1 onclick="getElementById('close-menu') .checked = false;">
+                    <a href="home">LOGO</a>
+                </h1>
+                <nav>
+                    <ul onclick="getElementById('close-menu') .checked = false;">
+                        <li><a href="#intro">intro</a></li>
+                        <li><a href="#grid-one">grade-um</a></li>
+                        <li><a href="#galerry">galeria</a></li>
+                        <li><a href="#grid-two">grade-dois</a></li>
+                        <li><a href="#pricing">preço</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        
+        <div class="menu-spacing"></div>
+        
+        <section id="home" class="intro main-bg section">
+            <div class="main-content intro-content">
+                <div class="intro-text-content">
+                    <h2>Janeiro nos traz o Firefox 85</h2>
+                    <p>Para encerrar janeiro, temos o orgulho de apresentar o lançamento do Firefox 85. Nesta versão, oferecemos suporte para a pseudoclasse :focus-visible em CSS e ferramentas de desenvolvimento associadas, e a remoção completa do suporte a Flash do Firefox.</p>
+                </div>
+                <div class="intro-image">
+                    <img src="assents/img/undraw_next_js_-8-g5m.svg" alt="logo, html,css e js">
+                </div>
+            </div>
+        </section> 
+        
+        <section id="intro" class="white-bg section">
+            <div class="main-content top3-content">
+                <h2>3 PRINCIPAIS TRABALHOS</h2>
+                <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.</p>
+                <p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.</p>
+                <p>We’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and discuss various updater problems we had to deal with. We’ll conclude with the release and an overview of various other improvements that are in the pipeline.</p>
+            </div>
+        </section>
+
+        <section id="grid-one" class="grid-one main-bg section">
+            <div class="main-content grid-one-content">
+                <h2 class="grid-main-hading">minha grade</h2>
+                <p class="grid-description">meu primeiro site</p>
+                <div class="grid">
+                    <article>
+                        <h3>titulo 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus fuga repellat doloremque minima reprehenderit vitae quod deleniti, enim odio unde dicta temporibus tempore, pariatur eveniet sapiente veritatis iure hic ipsum!</p>
+                    </article>
+                    <article>
+                        <h3>titulo 2</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem aliquam magnam qui, enim ab architecto quia error ullam, temporibus tempore, impedit possimus molestiae expedita ipsam repellendus aspernatur earum maiores dolorum!</p>
+                    </article>
+                    <article>
+                        <h3>titulo 3</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem aliquam magnam qui, enim ab architecto quia error ullam, temporibus tempore, impedit possimus molestiae expedita ipsam repellendus aspernatur earum maiores dolorum!</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        
+        <section id="galerry" class="grid-one white-bg section">
+            <div class="main-content grid-one-content">
+                <h2 class="grid-main-hading">galeria</h2>
+                <p class="grid-description">Minha galeria</p>
+                <div class="grid">
+                    <div class="galerry-img">
+                        <img src="assents/img/wallpapersden.com_hong-kong-5k-skyscraper-cityscape_360x360.jpg" alt="ramdom intro-image"/>
+                    </div>
+                    <div class="galerry-img">
+                        <img src="assents/img/wallpapersden.com_k-manhattan-usa-photography-2023_360x360.jpg" alt="ramdom intro-image"/>
+                    </div>
+                    <div class="galerry-img">
+                        <img src="assents/img/wallpapersden.com_eiffel-tower-4k-photography-2022_360x360.jpg" alt="ramdom intro-image"/>
+                    </div>
+                    <div class="galerry-img">
+                        <img src="assents/img/wallpapersden.com_rio-de-janeiro-hd-cityscape-brazil_360x360.jpg" alt="ramdom intro-image"/>
+                    </div>
+                    <div class="galerry-img">
+                        <img src="assents/img/wallpapersden.com_toronto-hd-canada_360x360.jpg" alt="ramdom intro-image"/>
+                    </div>
+                    <div class="galerry-img">
+                        <img src="assents/img/wallpapersden.com_nature-vestrahorn-4k-iceland_360x360.jpg" alt="ramdom intro-image"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="grid-two" class="grid-one main-bg section">
+            <div class="main-content grid-one-content">
+                <h2 class="grid-main-two">TRABALHOS RECENTES</h2>
+                <p class="grid-description"></p>
+                <div class="grid">
+                    <article>
+                        <h3>Uma boa 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus fuga repellat doloremque minima reprehenderit vitae quod deleniti, enim odio unde dicta temporibus tempore, pariatur eveniet sapiente veritatis iure hic ipsum!</p>
+                    </article>
+                    <article>
+                        <h3>Bom trabalho 2</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem aliquam magnam qui, enim ab architecto quia error ullam, temporibus tempore, impedit possimus molestiae expedita ipsam repellendus aspernatur earum maiores dolorum!</p>
+                    </article>
+                    <article>
+                        <h3>O melhor 3</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem aliquam magnam qui, enim ab architecto quia error ullam, temporibus tempore, impedit possimus molestiae expedita ipsam repellendus aspernatur earum maiores dolorum!</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="pricing" class="white-bg section">
+            <div class="main-content top3-content">
+                <h2>preço</h2>
+                <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.</p>
+                <p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.</p>
+                
+                <div class="responsive-table">  
+                  <table>
+                    <caption>tabela preço</caption>
+
+                    <thead>
+                        <tr>
+                            <th>titulo</th>
+                            <th>titulo</th>
+                            <th>titulo</th>
+                            <th>titulo</th>
+                            <th>titulo</th>
+                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>conteudo</td>
+                                <td>conteudo</td>
+                                <td>conteudo</td>
+                                <td>conteudo</td>
+                                <td>conteudo</td>
+                            </tr>
+                            <tr>
+                                <td>conteudo</td>
+                                <td>conteudo</td>
+                                <td>conteudo</td>
+                                <td>conteudo</td>
+                                <td>conteudo</td>
+                            </tr>
+                            <tr>
+                                <td>conteudo</td>
+                                <td>conteudo</td>
+                                <td>conteudo</td>
+                                <td>conteudo</td>
+                                <td>conteudo</td>
+                            </tr>
+                            <tfoot>
+                                <tr>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td>conteudo</td>
+                                    
+                                </tr>
+                            </tfoot>
+                            
+                        
+                        </tbody>
+                  </table>
+            </div>
+            </div>
+        </section>
+        <section id="contact" class="intro main-bg section">
+            <div class="main-content intro-content">
+                <div class="intro-text-content">
+                    <h2>Janeiro nos traz o Firefox 85</h2>
+                    <p>Para encerrar janeiro, temos o orgulho de apresentar o lançamento do Firefox 85. Nesta versão, oferecemos suporte para a pseudoclasse :focus-visible em CSS e ferramentas de desenvolvimento associadas, e a remoção completa do suporte a Flash do Firefox.</p>
+                </div>
+                <div class="intro-image">
+                    <img src="assents/img/undraw_javascript_frameworks_-8-qpc.svg" alt="logo, html,css e js">
+                </div>
+                <div class="contact-form">
+                    <fieldset class="form-grid">
+                        <legend>contact me </legend>
+                        <div class="form-group">
+                            <label for="name">nome</label>
+                            <input type="text" name="first-name" id="first-name" placeholder="Enter your first name">
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="sobrenome=">sobrenome</label>
+                            <input type="text" name="last-name" id="last-name" placeholder="Enter your last name">
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="email=">E-mail</label>
+                            <input type="email" name="email" id="email" placeholder="Enter your email">
+                            
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="message=">message</label>
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
+                            
+                        </div>
+                        <div class="form-group full-width">
+                        <button type="submit">enviar</button>
+                            
+                        </div>
+                    </fieldset> 
+                </div>
+            
+            </div>
+            
+        
+        </section> 
+
+          <footer id="footer" class="footer white-bg">
+            <p><a href="https://www.instagram.com/coradini_66/"> Feito com <span class="heart">❤</span> por ricardo coradini</a></p>
+          </footer>
+
+          <a class="back-to-top" href="#home">topo</a>
+        
+    </body>
+    </html>
+```
